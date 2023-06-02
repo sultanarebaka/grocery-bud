@@ -24,3 +24,15 @@
   .section-center:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
+  .alert {
+    margin-bottom: 1rem;
+    height: 1.25rem;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-size: 0.9rem;
+    border-radius: 0.25rem;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+  }
+  
