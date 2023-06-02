@@ -42,6 +42,18 @@
     color: #155724;
     background: #d4edda;
   }
+  .grocery-form h3 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 1.75rem;
+    text-transform: capitalize;
+    color: #333;
+  }
+  .form-control {
+    display: flex;
+    justify-content: center;
+  }
 
 
 
