@@ -55,6 +55,12 @@
     justify-content: center;
   }
 
+  #grocery {
+    padding: 0.25rem;
+    padding-left: 1rem;
+    background: #E8F6EF;
+    border-color: transparent;
+  }
 
 
  
