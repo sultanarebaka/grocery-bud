@@ -65,4 +65,10 @@
   #grocery::placeholder {
     color:#4C4C6D;
   }
+  .submit-btn {
+    background: #FFEEB3;
+    color: black;
+    cursor: pointer;
+    border: 0;
+  }
  
