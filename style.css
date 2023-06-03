@@ -62,5 +62,7 @@
     border-color: transparent;
   }
 
-
+  #grocery::placeholder {
+    color:#4C4C6D;
+  }
  
