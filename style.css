@@ -93,5 +93,13 @@
     transition: all 0.3s linear;
   }
   
+  .grocery-item:hover {
+    background: hsl(210, 36%, 96%);
+  }
+  .title {
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    transition: all 0.3s linear;
+  }
 
   
