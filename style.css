@@ -88,4 +88,10 @@
   .grocery-item {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s linear;
   }
+  
+
+  
