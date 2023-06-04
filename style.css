@@ -85,3 +85,7 @@
   .show-container {
     visibility: visible;
   }
+  .grocery-item {
+    display: flex;
+    align-items: center;
+  }
