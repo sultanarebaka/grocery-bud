@@ -101,5 +101,8 @@
     letter-spacing: 2px;
     transition: all 0.3s linear;
   }
+  .edit-btn,
+  .delete-btn {
+    background: transparent;
 
-  
+  }
