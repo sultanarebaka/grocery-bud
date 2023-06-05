@@ -113,4 +113,10 @@
   .edit-btn {
     color: green;
   }
+  .edit-btn:hover {
+    color: darkgreen;
+  }
+  .delete-btn {
+    color: red;
+  }
   
