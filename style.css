@@ -119,4 +119,23 @@
   .delete-btn {
     color: red;
   }
+  .delete-btn:hover {
+    color: darkred;
+  }
+  .clear-btn {
+    text-transform: capitalize;
+    width: 10rem;
+    height: 1.5rem;
+    display: grid;
+    align-items: center;
+    background: transparent;
+    border-color: transparent;
+    color: red;
+    margin: 0 auto;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    margin-top: 1.25rem;
+  }
   
