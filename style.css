@@ -103,6 +103,14 @@
   }
   .edit-btn,
   .delete-btn {
-    background: transparent;
-
+  background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+  font-size: 0.7rem;
+    margin: 0 0.15rem;
+    transition: all 0.3s linear;
   }
+  .edit-btn {
+    color: green;
+  }
+  
