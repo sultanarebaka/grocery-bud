@@ -15,7 +15,7 @@ function addItem(event) {
     event.preventDefault();
     const value = grocery.value;
     
-    const id = new Date().getTime().toString();
+    const id = newDate().getTime().toString();
 
 }
 
