@@ -18,3 +18,8 @@ function addItem(event) {
     const id = new Date().getTime().toString();
 
 }
+
+const element = document.createElement("article");
+
+let attr = document.createAttribute("data-id");
+attr.value = id;
