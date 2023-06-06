@@ -5,3 +5,9 @@ const container = document.querySelector(".grocery-container");
 const list = document.querySelector(".grocery-list");
 
 const clearBtn = document.querySelector(".clear-btn");
+
+let editElement;
+
+form.addEventListener("submit", addItem);
+
+clearBtn.addEventListener("click", clearItems);
