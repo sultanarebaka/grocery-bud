@@ -142,4 +142,9 @@
   .clear-btn:hover {
     color: darkred;
   }
+  @media (max-width:500px) {
+    #grocery {
+      width: 80%;
+    }
+  }
   
