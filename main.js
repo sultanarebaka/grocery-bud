@@ -11,6 +11,9 @@ let editElement;
 form.addEventListener("submit", addItem);
 
 clearBtn.addEventListener("click", clearItems);
-function addItem(e) {
-    e.preventDefault();
+function addItem(event) {
+    event.preventDefault();
+    const value = grocery.value;
+  
+
 }
