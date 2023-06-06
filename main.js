@@ -14,6 +14,7 @@ clearBtn.addEventListener("click", clearItems);
 function addItem(event) {
     event.preventDefault();
     const value = grocery.value;
-  
+    
+    const id = new Date().getTime().toString();
 
 }
