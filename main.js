@@ -23,3 +23,9 @@ const element = document.createElement("article");
 
 let attr = document.createAttribute("data-id");
 attr.value = id;
+
+
+const deleteBtn = element.querySelector(".delete-btn");
+deleteBtn.addEventListener("click", deleteItem);
+const editBtn = element.querySelector(".edit-btn");
+editBtn.addEventListener("click", editItem);
