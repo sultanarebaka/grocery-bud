@@ -37,3 +37,11 @@ setBackToDefault();
 else {
 displayAlert("please enter value", "danger");
 }
+function clearItems() {
+    const items = document.querySelectorAll(".grocery-item");
+    if (items.length > 0) {
+      items.forEach(function (item) {
+        list.removeChild(item);
+      });
+    }
+}
