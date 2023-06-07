@@ -29,3 +29,11 @@ const deleteBtn = element.querySelector(".delete-btn");
 deleteBtn.addEventListener("click", deleteItem);
 const editBtn = element.querySelector(".edit-btn");
 editBtn.addEventListener("click", editItem);
+
+
+// edit  local storage
+editLocalStorage(editID, value);
+setBackToDefault();
+else {
+displayAlert("please enter value", "danger");
+}
