@@ -73,3 +73,5 @@ function editItem(e) {
   const element = e.currentTarget.parentElement.parentElement;
   // set edit item
   editElement = e.currentTarget.parentElement.previousElementSibling;
+}
+grocery.value = editElement.innerHTML;
