@@ -75,3 +75,11 @@ function editItem(e) {
   editElement = e.currentTarget.parentElement.previousElementSibling;
 }
 grocery.value = editElement.innerHTML;
+
+// add to local storage
+function addToLocalStorage(id, value) {
+  const grocery = { id, value };
+  let items = getLocalStorage();
+  items.push(grocery);
+  localStorage.setItem("list", JSON.stringify(items));
+}
