@@ -120,4 +120,15 @@ function createListItem(id, value) {
                 <i class="fas fa-trash"></i>
               </button>
             </div>
-          `;}
+          `;
+
+
+ // add event listeners to buttons;
+ const deleteBtn = element.querySelector(".delete-btn");
+ deleteBtn.addEventListener("click", deleteItem);
+ const editBtn = element.querySelector(".edit-btn");
+ editBtn.addEventListener("click", editItem);
+
+ // append child
+ list.appendChild(element);
+}
