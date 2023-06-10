@@ -84,7 +84,6 @@ function editItem(e) {
   clearBtn.addEventListener("click", clearItems);
   
 
-
   function addItem(e) {
     e.preventDefault();
     const value = grocery.value;
@@ -194,7 +193,7 @@ function editItem(e) {
     const editBtn = element.querySelector(".edit-btn");
     editBtn.addEventListener("click", editItem);
   
-    // append child
+    // append 
     list.appendChild(element);
   }
   
